@@ -1,3 +1,64 @@
+# System files
+.DS_Store
+.env
+.vscode
+.idea
+*.log
+
+# User files
+.bash_history
+.zsh_history
+.config
+.cache
+.npm
+.nvm
+.yarn
+.pm2
+.docker
+.meteor
+.mongodb
+.cursor
+.cups
+.degit
+.lesshst
+.netrc
+.nuxtrc
+.viminfo
+.yarnrc
+.zcompdump
+.zsh_sessions
+.CFUserTextEncoding
+
+# Application directories
+krezzo*
+kodi*
+ventryx*
+backend/
+bogo-buddy/
+bogovibes/
+dash/
+dt-app/
+fuse-app/
+lasterday*/
+marketing*/
+okrtracker/
+plaid*/
+publicks/
+quickstart/
+v3/
+vue-kanban/
+
+# System directories
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+
 # Logs
 logs
 *.log
