@@ -1,70 +1,64 @@
 export function Features() {
   const features = [
     {
-      title: "Dynamic Budget Analysis",
-      description: "Creating and managing a budget sucks, so we take the legwork out of it.",
+      title: "Rapid prototyping",
+      description: "Quickly turn ideas into interactive prototypes to validate concepts and gather feedback early.",
       icon: (
-        <svg className="h-6 w-6 text-primary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-        </svg>
+        // Lightning bolt icon
+        <svg className="h-6 w-6 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
       ),
     },
     {
-      title: "Real-time Text Insights",
-      description: "Get real-time budget analysis and insights when you spend money.",
+      title: "Product development",
+      description: "End-to-end product design and engineering to bring your vision to life.",
       icon: (
-        <svg className="h-6 w-6 text-primary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
+        // Cube icon
+        <svg className="h-6 w-6 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0v6a8 8 0 11-16 0V7m16 0L12 13m0 0L4 7m8 6v8" /></svg>
       ),
     },
     {
-      title: "Custom Report Builder",
-      description: "Create personalized reports that focus on what matters most to you.",
+      title: "Go-to-market planning",
+      description: "Strategic planning to launch your product and reach your target audience effectively.",
       icon: (
-        <svg className="h-6 w-6 text-primary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-        </svg>
+        // Paper airplane icon
+        <svg className="h-6 w-6 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.5 6h.008v.008H10.5V6zm.5 13.5l8.5-8.5-8.5-8.5-8.5 8.5 8.5 8.5z" /></svg>
       ),
     },
     {
-      title: "Advanced Data Visualization",
-      description: "Transform complex data into clear, actionable insights with our robust tools.",
+      title: "Market research",
+      description: "In-depth research and analysis to inform your business decisions and strategy.",
       icon: (
-        <svg className="h-6 w-6 text-primary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
-        </svg>
+        // Search icon
+        <svg className="h-6 w-6 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" /></svg>
       ),
     },
     {
-      title: "Secure Data Storage",
-      description: "Rest easy knowing your data is protected with enterprise-grade security measures.",
+      title: "Branding & design",
+      description: "Create a memorable brand identity and beautiful, user-friendly designs.",
       icon: (
-        <svg className="h-6 w-6 text-primary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-        </svg>
+        // Color swatch icon
+        <svg className="h-6 w-6 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17a4 4 0 01-4-4V7a4 4 0 014-4h6a4 4 0 014 4v6a4 4 0 01-4 4H7zm0 0v4m0-4h4" /></svg>
       ),
     },
     {
-      title: "Seamless Integration",
-      description: "Connect with your existing bank accounts with our integration capabilities.",
+      title: "Messaging & positioning",
+      description: "Craft compelling messaging and position your business for maximum impact.",
       icon: (
-        <svg className="h-6 w-6 text-primary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-        </svg>
+        // Chat bubble icon
+        <svg className="h-6 w-6 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m-2 8a9 9 0 100-18 9 9 0 000 18z" /></svg>
       ),
     },
   ];
 
   return (
-    <section id="features" className="bg-neutral-50 py-12 sm:py-16 lg:py-20">
+    <section id="features" className="bg-neutral-50 py-16">
       <div className="container-section">
         <div className="text-center">
           <h2 className="section-title">
-            Powerful features to transform your finances
+            Do more, with less.
           </h2>
           <p className="section-subtitle mx-auto">
-            Everything you need to understand, analyze, and grow your finances.
+            Build smarter, launch faster, and grow more efficiently.
           </p>
         </div>
 
