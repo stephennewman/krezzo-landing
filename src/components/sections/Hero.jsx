@@ -1,7 +1,7 @@
 export function Hero() {
   return (
     <section className="py-16 bg-white text-center">
-      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-neutral-900">Powering strategic innovation</h1>
+      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-neutral-900">Powering digital innovation</h1>
       <p className="mt-4 max-w-xl mx-auto text-neutral-500 text-lg">
         The technology world is changing before our very eyes, and how businesses operate will never be the same. Let's discuss.
       </p>
