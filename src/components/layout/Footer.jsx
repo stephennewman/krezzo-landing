@@ -4,9 +4,9 @@ export function Footer() {
       <div className="container-section py-8 flex flex-col items-center text-center">
         <a href="/" className="flex justify-center items-center mb-2">
           <img 
-            src="https://blog.krezzo.com/hs-fs/hubfs/Krezzo-Logo-2023-Dark.png?width=648&height=160&name=Krezzo-Logo-2023-Dark.png" 
+            src="/images/krezzo-logo.png" 
             alt="Krezzo Logo" 
-            className="h-6 w-auto" 
+            className="h-6 w-auto brightness-0 invert" 
           />
         </a>
         <p className="text-neutral-400 text-sm">

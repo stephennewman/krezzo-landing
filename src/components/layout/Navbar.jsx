@@ -8,7 +8,7 @@ export function Navbar() {
           {/* Centered Logo */}
           <a href="/" className="flex items-center">
             <img 
-              src="https://blog.krezzo.com/hs-fs/hubfs/Krezzo-Logo-2023-Light.png?width=648&height=160&name=Krezzo-Logo-2023-Light.png" 
+              src="/images/krezzo-logo.png" 
               alt="Krezzo logo" 
               className="h-8 w-auto sm:h-10"
             />
