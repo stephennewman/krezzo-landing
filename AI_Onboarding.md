@@ -8,17 +8,11 @@
 **Repository**: https://github.com/stephennewman/krezzo-landing  
 **Hosting**: Vercel
 
-## Purpose & Main Features
+## Purpose
 
-Krezzo is a consulting/professional services company focused on helping businesses build, launch, and grow efficiently. The landing page serves as the primary marketing site with a focus on scheduling consultations via Calendly.
+Krezzo – Technology expertise based in Palm Harbor, FL.
 
-### Core Services Offered:
-1. **Rapid Prototyping** - Turn ideas into interactive prototypes
-2. **Product Development** - End-to-end design and engineering
-3. **Go-to-Market Planning** - Strategic launch planning
-4. **Market Research** - In-depth business analysis
-5. **Branding & Design** - Brand identity and UI/UX design
-6. **Messaging & Positioning** - Compelling communication strategy
+Simple landing page with Calendly integration for scheduling conversations.
 
 ## Tech Stack
 
@@ -84,6 +78,10 @@ This repository also contains two other experimental projects:
 ## Activity Log
 
 ### January 2, 2026
+- **Simplified meta tags** (`82a4a6a`): Updated all titles/descriptions
+  - Title: "Krezzo – Technology Expertise"
+  - Description: "Krezzo – Technology expertise based in Palm Harbor, FL."
+  - Removed all mentions of project work, prototyping, product dev, etc.
 - **Simplified landing page** (`1f79043`): Major redesign
   - Removed Navbar, Hero, Features, and CTA sections
   - Large centered logo as the focal point
