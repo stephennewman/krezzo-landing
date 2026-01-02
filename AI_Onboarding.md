@@ -84,9 +84,14 @@ This repository also contains two other experimental projects:
 ## Activity Log
 
 ### January 2, 2026
+- **Simplified landing page** (`1f79043`): Major redesign
+  - Removed Navbar, Hero, Features, and CTA sections
+  - Large centered logo as the focal point
+  - Single "Get in touch" CTA button → Calendly (opens in new tab)
+  - Minimal footer: Privacy Policy | Terms of Service | © 2026
+  - Updated copyright year from 2025 to 2026
 - **Initial onboarding**: AI agent got up to speed on project
-- Current state: Clean working tree, all changes committed
-- Latest commit: `5ae1c9b` - Fix logo display issues
+- Latest commit before changes: `5ae1c9b` - Fix logo display issues
 
 ### Previous Notable Commits
 - `0e45c9f` - Add Vercel configuration and deployment setup
